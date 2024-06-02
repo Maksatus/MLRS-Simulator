@@ -919,9 +919,7 @@ namespace JUTPS
 
             // >>> Physical Damage System
             if (PhysicalDamage == false) return;
-
-            if (AI.JUCharacterArtificialInteligenceBrain.TagMatches(other.collider.gameObject.tag, PhysicalDamageIgnoreTags)) return;
-
+            
 
             if (other.gameObject.TryGetComponent(out Rigidbody rbOtherPhysicObject))
             {
