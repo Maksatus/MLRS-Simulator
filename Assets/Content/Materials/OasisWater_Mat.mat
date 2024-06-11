@@ -80,7 +80,7 @@ Material:
     - _EdgeFade: 1
     - _Float: -1.6
     - _Metallic: 1
-    - _NormalMapStrength: 0.185
+    - _NormalMapStrength: 0.3
     - _NormalMapStrength_1: 1
     - _NormalMapStrength_2: 1
     - _NormalMapStrength_3: 1
@@ -104,9 +104,9 @@ Material:
     - _BlendOffsetSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Color: {r: 0.11372546, g: 0.47896016, b: 0.62352943, a: 0}
     - _Color2: {r: 0.09545211, g: 0.31132078, b: 0.25649697, a: 0}
-    - _ColorBright: {r: 0.17254904, g: 0.34394622, b: 0.3529412, a: 0}
+    - _ColorBright: {r: 0.4188679, g: 0.4188679, b: 0.4188679, a: 0}
     - _ColorDark: {r: 0.09545211, g: 0.31132078, b: 0.25649697, a: 0}
-    - _ColorDeep: {r: 0.21877201, g: 0.34158185, b: 0.354, a: 1}
+    - _ColorDeep: {r: 0.41756496, g: 0.4256342, b: 0.4264151, a: 1}
     - _EdgeColor: {r: 0.4594755, g: 0.57582647, b: 0.6037736, a: 0}
     - _RefractionFade: {r: 0, g: 10, b: 0, a: 0}
     - _WaterDepthRange: {r: 0, g: 10, b: 0, a: 0}

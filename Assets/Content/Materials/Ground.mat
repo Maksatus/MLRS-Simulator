@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ground
-  m_Shader: {fileID: -6465566751694194690, guid: dda82d92440820443b6e38a8f23b5005, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 48538810fd48a2743afa97e2e28f1beb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -41,12 +41,40 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5a65203a1dec56b419144a03404924bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _A_Channel:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B_Channel:
+        m_Texture: {fileID: 2800000, guid: b007c6d36ae25924ba1c3f14d2043ab0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B_ChannelMask:
+        m_Texture: {fileID: 2800000, guid: 94a32bdc1eb162646ab2be0aac4251e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B_ChannelNormal:
+        m_Texture: {fileID: 2800000, guid: cb4129cd02a83024fad239295ecedce8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 8eb0a691a7eea184192bd10719ed4290, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Default_Texture:
+        m_Texture: {fileID: 2800000, guid: b007c6d36ae25924ba1c3f14d2043ab0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Default_TextureMask:
+        m_Texture: {fileID: 2800000, guid: 94a32bdc1eb162646ab2be0aac4251e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Default_TextureNormal:
+        m_Texture: {fileID: 2800000, guid: cb4129cd02a83024fad239295ecedce8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -69,7 +97,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _G_ChanneMask:
+        m_Texture: {fileID: 2800000, guid: 77297c98d60caf54e8b8d3e595b1efa3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _G_ChanneNormal:
+        m_Texture: {fileID: 2800000, guid: a4c6438c881970f46a0188762216d909, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _G_Channel:
+        m_Texture: {fileID: 2800000, guid: 47c40407c61ca594cb737fa781ba1a26, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -91,6 +135,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _R_ChanneMask:
+        m_Texture: {fileID: 2800000, guid: 94a32bdc1eb162646ab2be0aac4251e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _R_ChanneNormal:
+        m_Texture: {fileID: 2800000, guid: dbfd6b632f6c2244382465778255e4ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _R_Channel:
+        m_Texture: {fileID: 2800000, guid: 228da95010ca3e342afe2be15ad9d813, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Roughness:
@@ -153,10 +209,21 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
+    - _ATint: {r: 1, g: 1, b: 1, a: 1}
+    - _A_Tiling: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _B_Tiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DefTint: {r: 1, g: 1, b: 1, a: 1}
+    - _DefaultTint: {r: 1, g: 1, b: 1, a: 1}
+    - _Default_Tiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GTint: {r: 1, g: 1, b: 1, a: 1}
+    - _G_Tiling: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _RTint: {r: 1, g: 1, b: 1, a: 1}
+    - _R_Tiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
     - _TintColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
